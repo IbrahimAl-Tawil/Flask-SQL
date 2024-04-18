@@ -1,0 +1,68 @@
+
+body {
+    background-color: #f7fafc; /* Tailwind bg-gray-100 */
+    color: #2d3748; /* Tailwind text-gray-800 */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px; /* Tailwind text-3xl */
+    font-weight: bold; /* Tailwind font-bold */
+    text-align: center; /* Tailwind text-center */
+    margin-top: 24px; /* Tailwind my-6 */
+    margin-bottom: 24px; /* Tailwind my-6 */
+}
+
+nav {
+    background-color: #ffffff; /* Tailwind bg-white */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Tailwind shadow-md */
+    padding: 16px; /* A bit of padding */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Tailwind flex */
+    justify-content: center; /* Tailwind justify-center */
+    gap: 16px; /* Tailwind space-x-4 */
+}
+
+nav ul li a {
+    color: #4299e1; /* Tailwind text-blue-500 */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3182ce; /* Tailwind hover:text-blue-700 */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px; /* A bit of padding */
+    text-align: left;
+}
+
+button {
+    background-color: #4299e1; /* Tailwind bg-blue-500 */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3182ce; /* Tailwind hover:bg-blue-700 */
+}
